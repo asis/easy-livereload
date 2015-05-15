@@ -6,7 +6,7 @@
   "dependencies": {
     "connect-body-rewrite": "0.0.4",
     "livereload-server": "0.2.3",
-    "napa": "1.2.0",
+    "livereload-js": "2.2.2",
     "node-watch": "0.3.4"
   },
   "repository": {
@@ -21,8 +21,7 @@
     "watch"
   ],
   "scripts": {
-    "test": "mocha",
-    "install": "napa livereload/livereload-js#e6b5ac4319:livereload-js"
+    "test": "mocha"
   },
   "devDependencies": {
     "express": "4.10.6",
